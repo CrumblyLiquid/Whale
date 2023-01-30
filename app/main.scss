@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'JetBrains Mono';
+    height: 100vh;
+    // min-height: 100vh;
+    display: grid;
+    grid-template-rows: [header] auto [main] 60fr [footer] auto;
+}
+
+.menu {
+    display: grid;
+    grid-template-rows: max-content auto;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+
+    display: inline-block;
+    position: relative;
+}
+
+.link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+// https://www.w3schools.com/howto/howto_css_loader.asp
+.loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
