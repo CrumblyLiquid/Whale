@@ -1,6 +1,8 @@
 # Whale
 
-Web application for practising vocabulary based written with Rust and Yew.
+Web application for practising vocabulary written with Rust and Yew.
+It consists of `whale` lib which provides shared structs and functionality, `server` built with axum to host our API and `app` which houses the Yew application.
+Finally I've provided some scripts to make converting between different file formats easier.
 
 ## Running Whale
 
