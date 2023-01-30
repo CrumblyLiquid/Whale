@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "whale", # Shared code
+    "server", # Server to serve content
+    "app", # Web app to display content
+]
