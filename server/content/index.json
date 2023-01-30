@@ -1,0 +1,34 @@
+{
+    "packages": {
+        "slovesa": {
+            "filename": "slovesa",
+            "name": "Nepravidelná slovesa",
+            "summary": "Vybraná nepravidelná slovesa na 1. středu v měsíci",
+            "author": "CrumblyLiquid"
+        },
+        "ssd-lekce1": {
+            "filename": "ssd-lekce1",
+            "name": "Sprechen Sie Deutsch - Lekce 1.",
+            "summary": "Slovíčka z 1. lekce učebnice Sprechen Sie Deutsch",
+            "author": "CrumblyLiquid"
+        },
+        "ssd-lekce2": {
+            "filename": "ssd-lekce2",
+            "name": "Sprechen Sie Deutsch - Lekce 2.",
+            "summary": "Slovíčka z 2. lekce učebnice Sprechen Sie Deutsch",
+            "author": "CrumblyLiquid"
+        },
+        "ssd-lekce3": {
+            "filename": "ssd-lekce3",
+            "name": "Sprechen Sie Deutsch - Lekce 3.",
+            "summary": "Slovíčka z 3. lekce učebnice Sprechen Sie Deutsch",
+            "author": "CrumblyLiquid"
+        },
+        "ssd-lekce4": {
+            "filename": "ssd-lekce4",
+            "name": "Sprechen Sie Deutsch - Lekce 4.",
+            "summary": "Slovíčka z 4. lekce učebnice Sprechen Sie Deutsch",
+            "author": "CrumblyLiquid"
+        }
+    }
+}

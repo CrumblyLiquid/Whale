@@ -1,0 +1,555 @@
+{
+    "name": "Nepravidelná slovesa",
+    "summary": "Vybraná nepravidelná slovesa na 1. středu v měsíci",
+    "author": "CrumblyLiquid",
+    "native": "čeština",
+    "foreign": "němčina",
+    "inputs": [
+        {
+            "name": "Česky",
+            "example": "Např.: běžet"
+        },
+        {
+            "name": "Německy"
+        },
+        {
+            "name": "3. osoba",
+            "prefix": "er"
+        },
+        {
+            "name": "Préteritum",
+            "prefix": "ich"
+        },
+        {
+            "name": "Perfektum",
+            "prefix": "ich"
+        }
+    ],
+    "words": [
+        [
+            "odbočit",
+            "abbiegen",
+            "biegt ab",
+            "bog ab",
+            "bin abgebogen"
+        ],
+        [
+            "začít",
+            "anfangen",
+            "fängt an",
+            "fing an",
+            "habe angefangen"
+        ],
+        [
+            "obléknout",
+            "anziehen",
+            "zieht an",
+            "zog an",
+            "habe angezogen"
+        ],
+        [
+            "vystoupit",
+            "auftreten",
+            "tritt auf",
+            "trat auf",
+            "bin aufgetreten"
+        ],
+        [
+            "péct",
+            "backen",
+            "bäckt",
+            "backte",
+            "habe gebacken"
+        ],
+        [
+            "začít",
+            "beginnen",
+            "beginnt",
+            "begann",
+            "habe begonnen"
+        ],
+        [
+            "podvádět",
+            "betrügen",
+            "betrügt",
+            "betrog",
+            "habe betrogen"
+        ],
+        [
+            "ucházet se",
+            "bewerben (sich)",
+            "bewirbt sich",
+            "bewarb sich",
+            "habe mbeworben"
+        ],
+        [
+            "nabídnout",
+            "bieten",
+            "bietet",
+            "bot",
+            "habe geboten"
+        ],
+        [
+            "prosit",
+            "bitten",
+            "bittet",
+            "bat",
+            "habe gebeten"
+        ],
+        [
+            "zůstat",
+            "bleiben",
+            "bleibt",
+            "blieb",
+            "bin geblieben"
+        ],
+        [
+            "přinést",
+            "bringen",
+            "bringt",
+            "brachte",
+            "habe gebracht"
+        ],
+        [
+            "myslet si",
+            "denken",
+            "denkt",
+            "dachte",
+            "habe gedacht"
+        ],
+        [
+            "pozvat",
+            "einladen",
+            "lädt ein",
+            "lud ein",
+            "habe eingeladen"
+        ],
+        [
+            "doporučit",
+            "empfehlen",
+            "empfiehlt",
+            "empfahl",
+            "habe empfohlen"
+        ],
+        [
+            "rozhodnout",
+            "entscheiden",
+            "entscheidet",
+            "entschied",
+            "habe entschieden"
+        ],
+        [
+            "jíst",
+            "essen",
+            "isst",
+            "aß",
+            "habe gegessen"
+        ],
+        [
+            "jet",
+            "fahren",
+            "fährt",
+            "fuhr",
+            "bin gefahren"
+        ],
+        [
+            "spadnout",
+            "fallen",
+            "fällt",
+            "fiel",
+            "bin gefallen"
+        ],
+        [
+            "nalézt",
+            "finden",
+            "findet",
+            "fand",
+            "habe gefunden"
+        ],
+        [
+            "letět",
+            "fliegen",
+            "fliegt",
+            "flog",
+            "bin geflogen"
+        ],
+        [
+            "žrát",
+            "fressen",
+            "frisst",
+            "fraß",
+            "habe gefressen"
+        ],
+        [
+            "dát",
+            "geben",
+            "gibt",
+            "gab",
+            "habe gegeben"
+        ],
+        [
+            "jít",
+            "gehen",
+            "geht",
+            "ging",
+            "bin gegangen"
+        ],
+        [
+            "podařit se",
+            "gelingen",
+            "gelingt",
+            "gelang",
+            "bin gelungen"
+        ],
+        [
+            "pochutnat si",
+            "genießen",
+            "genießt",
+            "genoss",
+            "habe genossen"
+        ],
+        [
+            "stát se",
+            "geschehen",
+            "geschieht",
+            "geschah",
+            "bin geschehen"
+        ],
+        [
+            "vyhrát",
+            "gewinnen",
+            "gewinnt",
+            "gewann",
+            "habe gewonnen"
+        ],
+        [
+            "podobat se",
+            "gleichen (sich)",
+            "gleicht sich",
+            "glmich",
+            "habe mgeglichen"
+        ],
+        [
+            "mít",
+            "haben",
+            "hat",
+            "hatte",
+            "habe gehabt"
+        ],
+        [
+            "udržet",
+            "halten",
+            "hält",
+            "hielt",
+            "habe gehalten"
+        ],
+        [
+            "viset",
+            "hängen",
+            "hängt",
+            "hing",
+            "habe gehangen"
+        ],
+        [
+            "jmenovat se",
+            "heißen",
+            "heißt",
+            "hieß",
+            "habe geheißen"
+        ],
+        [
+            "pomoct",
+            "helfen",
+            "hilft",
+            "half",
+            "habe geholfen"
+        ],
+        [
+            "znát",
+            "kennen",
+            "kennt",
+            "kannte",
+            "habe gekannt"
+        ],
+        [
+            "přijet",
+            "kommen",
+            "kommt",
+            "kam",
+            "bin gekommen"
+        ],
+        [
+            "nechat",
+            "lassen",
+            "lässt",
+            "ließ",
+            "habe gelassen"
+        ],
+        [
+            "běžet",
+            "laufen",
+            "läuft",
+            "lief",
+            "bin gelaufen"
+        ],
+        [
+            "půjčit",
+            "leihen",
+            "leiht",
+            "lieh",
+            "habe geliehen"
+        ],
+        [
+            "číst",
+            "lesen",
+            "liest",
+            "las",
+            "habe gelesen"
+        ],
+        [
+            "ležet",
+            "liegen",
+            "liegt",
+            "lag",
+            "habe gelegen"
+        ],
+        [
+            "vzít, brát",
+            "nehmen",
+            "nimmt",
+            "nahm",
+            "habe genommen"
+        ],
+        [
+            "jmenovat",
+            "nennen",
+            "nennt",
+            "nannte",
+            "habe genannt"
+        ],
+        [
+            "hádat, poradit",
+            "raten",
+            "rät",
+            "riet",
+            "habe geraten"
+        ],
+        [
+            "jezdit (na koni)",
+            "reiten",
+            "reitet",
+            "ritt",
+            "bin geritten"
+        ],
+        [
+            "zavolat",
+            "rufen",
+            "ruft",
+            "rief",
+            "habe gerufen"
+        ],
+        [
+            "svítit",
+            "scheinen",
+            "scheint",
+            "schien",
+            "habe geschienen"
+        ],
+        [
+            "střílet",
+            "schießen",
+            "schießt",
+            "schoss",
+            "binhabe geschossen"
+        ],
+        [
+            "spát",
+            "schlafen",
+            "schläft",
+            "schlief",
+            "habe geschlafen"
+        ],
+        [
+            "zavřít",
+            "schließen",
+            "schließt",
+            "schloss",
+            "habe geschlossen"
+        ],
+        [
+            "psát",
+            "schreiben",
+            "schreibt",
+            "schrieb",
+            "habe geschreiben"
+        ],
+        [
+            "plavat",
+            "schwimmen",
+            "schwimmt",
+            "schwamm",
+            "bin geschwommen"
+        ],
+        [
+            "vidět",
+            "sehen",
+            "sieht",
+            "sah",
+            "habe gesehen"
+        ],
+        [
+            "být",
+            "sein",
+            "ist",
+            "war",
+            "bin gewesen"
+        ],
+        [
+            "zpívat",
+            "singen",
+            "singt",
+            "sang",
+            "habe gesungen"
+        ],
+        [
+            "sedět",
+            "sitzen",
+            "sitzt",
+            "saß",
+            "habe gesessen"
+        ],
+        [
+            "mluvit",
+            "sprechen",
+            "spricht",
+            "sprach",
+            "habe gesprochen"
+        ],
+        [
+            "skákat",
+            "springen",
+            "springt",
+            "sprang",
+            "bin gesprungen"
+        ],
+        [
+            "stát",
+            "stehen",
+            "steht",
+            "stand ",
+            "habe gestanden"
+        ],
+        [
+            "stoupat",
+            "steigen",
+            "steigt",
+            "stieg",
+            "bin gestiegen"
+        ],
+        [
+            "zemřít",
+            "sterben",
+            "stirbt",
+            "starb",
+            "bin gestorben"
+        ],
+        [
+            "hádat se",
+            "streiten (sich)",
+            "streitet sich",
+            "stritt mich",
+            "habe mgestritten"
+        ],
+        [
+            "nést",
+            "tragen",
+            "trägt",
+            "trug",
+            "habe getragen"
+        ],
+        [
+            "potkat",
+            "treffen",
+            "trifft",
+            "traf",
+            "habe getroffen"
+        ],
+        [
+            "pít",
+            "trinken",
+            "trinkt",
+            "trank",
+            "habe getrunken"
+        ],
+        [
+            "dělat",
+            "tun",
+            "tut",
+            "tat",
+            "habe getan"
+        ],
+        [
+            "spojit, navázat",
+            "verbinden",
+            "verbindet",
+            "verband",
+            "habe verbunden"
+        ],
+        [
+            "zapomenout",
+            "vergessen",
+            "vergissta",
+            "vergaß",
+            "have vergessen"
+        ],
+        [
+            "ztratit, prohrát",
+            "verlieren",
+            "verliert",
+            "verlor",
+            "habe verloren"
+        ],
+        [
+            "mizet",
+            "verschwinden",
+            "verschwindet",
+            "verschwand",
+            "bin geschwunden"
+        ],
+        [
+            "navrhnout",
+            "vorschlagen",
+            "schlägt vor",
+            "schlug vor",
+            "habe vorgeschlagen"
+        ],
+        [
+            "mýt",
+            "waschen",
+            "wäscht",
+            "wusch",
+            "habe gewaschen"
+        ],
+        [
+            "zahodit",
+            "wegwerfen",
+            "wirft weg",
+            "warf weg",
+            "habe weggeworfen"
+        ],
+        [
+            "stát se",
+            "werden",
+            "wird",
+            "wurde",
+            "bin geworden"
+        ],
+        [
+            "zvážit",
+            "wiegen",
+            "wiegt",
+            "wog",
+            "habe gewogen"
+        ]
+    ]
+}

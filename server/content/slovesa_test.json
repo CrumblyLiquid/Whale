@@ -1,0 +1,30 @@
+{
+    "name": "Nepravidelná slovesa",
+    "summary": "Vybraná nepravidelná slovesa na 1. středu v měsíci",
+    "author": "CrumblyLiquid",
+    "native": "čeština",
+    "foreign": "němčina",
+    "inputs": [
+        {
+            "name": "Česky",
+            "example": "Např.: běžet"
+        },
+        {
+            "name": "Německy"
+        },
+        {
+            "name": "Préteritum",
+            "prefix": "ich"
+        },
+        {
+            "name": "Perfektum",
+            "prefix": "ich"
+        }
+    ],
+    "words": [
+        ["mluvit", "sprechen", "sprach", "habe gesprochen"],
+        ["ležet", "liegen", "lag", "habe gelegen"],
+        ["padat", "fallen", "fiel", "bin gefallen"]
+    ]
+
+}
