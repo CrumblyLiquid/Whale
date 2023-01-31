@@ -77,10 +77,10 @@
         ],
         [
             "ucházet se",
-            "bewerben (sich)",
-            "bewirbt sich",
-            "bewarb sich",
-            "hat mbeworben"
+            "bewerben",
+            "bewirbt",
+            "bewarb",
+            "hat beworben"
         ],
         [
             "nabídnout",
@@ -224,10 +224,10 @@
         ],
         [
             "podobat se",
-            "gleichen (sich)",
-            "gleicht sich",
-            "glmich",
-            "hat mgeglichen"
+            "gleichen",
+            "gleicht",
+            "glich",
+            "hat geglichen"
         ],
         [
             "mít",
@@ -360,7 +360,7 @@
             "schießen",
             "schießt",
             "schoss",
-            "binhat geschossen"
+            "hat geschossen"
         ],
         [
             "spát",
@@ -455,10 +455,10 @@
         ],
         [
             "hádat se",
-            "streiten (sich)",
-            "streitet sich",
-            "stritt mich",
-            "hat mgestritten"
+            "streiten",
+            "streitet",
+            "stritt",
+            "hat gestritten"
         ],
         [
             "nést",
@@ -514,7 +514,7 @@
             "verschwinden",
             "verschwindet",
             "verschwand",
-            "ist geschwunden"
+            "ist verschwunden"
         ],
         [
             "navrhnout",
