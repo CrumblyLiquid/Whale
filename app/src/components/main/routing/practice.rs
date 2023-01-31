@@ -248,7 +248,7 @@ impl Component for PracticeComponent {
         let next = ctx.link().callback(|_| Msg::Next);
 
         // Calculate progress bar width
-        let progress: String = format!("width: {0}%;", (self.done as f32/(self.done+self.unchecked.len()+self.failed.len()) as f32)*99.0);
+        let progress: String = format!("width: {0}%;", (self.done as f32/(self.done+self.unchecked.len()+self.failed.len()) as f32)*99.3);
 
         html! {
             <div class="m-6 mx-10 space-y-4">
