@@ -1,0 +1,433 @@
+{
+    "name": "Sprechen Sie Deutsch - Lekce 1.",
+    "summary": "Slovíčka z 1. lekce učebnice Sprechen Sie Deutsch",
+    "author": "CrumblyLiquid",
+    "native": "Čeština",
+    "foreign": "Němčina",
+    "inputs": [
+        {
+            "name": "Čeština"
+        },
+        {
+            "name": "Němčina"
+        }
+    ],
+    "words": [
+        [
+            "manželství",
+            "die Ehe"
+        ],
+        [
+            "obchodník",
+            "der Händler"
+        ],
+        [
+            "ignorovat",
+            "ignorieren"
+        ],
+        [
+            "líbat se",
+            "sich küssen"
+        ],
+        [
+            "veřejný",
+            "öffentlich"
+        ],
+        [
+            "partner",
+            "der Partner"
+        ],
+        [
+            "zemřít",
+            "sterben"
+        ],
+        [
+            "tradice",
+            "die Tradition"
+        ],
+        [
+            "oddat, oddávat",
+            "trauen"
+        ],
+        [
+            "zakázat",
+            "verbieten"
+        ],
+        [
+            "zákaz",
+            "das Verbot"
+        ],
+        [
+            "shromáždit se",
+            "sich versammeln"
+        ],
+        [
+            "pták",
+            "der Vogel"
+        ],
+        [
+            "den zamilovaných",
+            "der Tag der Verliebten"
+        ],
+        [
+            "biskup Valentýn",
+            "der Bischof Valentin"
+        ],
+        [
+            "ve 3. století po Kristu",
+            "im 3. Jahrhundert nach Christus"
+        ],
+        [
+            "anglický básník",
+            "der englische Dichter"
+        ],
+        [
+            "vztah",
+            "die Beziehung"
+        ],
+        [
+            "myšlenka",
+            "der Gedanke"
+        ],
+        [
+            "svatba",
+            "die Heirat"
+        ],
+        [
+            "naděje",
+            "die Hoffnung"
+        ],
+        [
+            "komentář",
+            "der Kommentar"
+        ],
+        [
+            "rozvod",
+            "die Scheidung"
+        ],
+        [
+            "rozejít se s někým",
+            "sich trennen von jemandem"
+        ],
+        [
+            "rozchod",
+            "die Trennung"
+        ],
+        [
+            "zamilovat se do někoho",
+            "sich verlieben in jemanden"
+        ],
+        [
+            "během",
+            "während"
+        ],
+        [
+            "poslouchat",
+            "zuhören"
+        ],
+        [
+            "láska na první pohled",
+            "Liebe auf den ersten Blick"
+        ],
+        [
+            "Jak to dopadlo?",
+            "Wie ist es ausgegangen?"
+        ],
+        [
+            "rozejít se",
+            "auseinandergehen"
+        ],
+        [
+            "díky",
+            "dank"
+        ],
+        [
+            "lakomý",
+            "geizig"
+        ],
+        [
+            "podle",
+            "laut"
+        ],
+        [
+            "vymazat, smazat",
+            "löschen"
+        ],
+        [
+            "tradiční",
+            "traditionell"
+        ],
+        [
+            "přes, navzdory",
+            "trotz"
+        ],
+        [
+            "zasnoubit se",
+            "sich verloben"
+        ],
+        [
+            "zasnoubení",
+            "die Verlobung"
+        ],
+        [
+            "zkusit, zkoušet",
+            "versuchen"
+        ],
+        [
+            "kvůli",
+            "wegen"
+        ],
+        [
+            "vzteklý, zuřivý",
+            "wütend"
+        ],
+        [
+            "ze zlata a stříbra",
+            "aus Gold und Silber"
+        ],
+        [
+            "agentura",
+            "die Agentur"
+        ],
+        [
+            "úřad",
+            "das Amt"
+        ],
+        [
+            "svatební šaty",
+            "das Brautkleid"
+        ],
+        [
+            "svatba",
+            "die Hochzeit"
+        ],
+        [
+            "maličkost",
+            "die Kleinigkeit"
+        ],
+        [
+            "kočár",
+            "die Kutsche"
+        ],
+        [
+            "synovec",
+            "der Neffe"
+        ],
+        [
+            "hádat se",
+            "sich streiten"
+        ],
+        [
+            "snít o někom/něčem",
+            "träumen von jemandem/etwas"
+        ],
+        [
+            "předpis",
+            "die Vorschrift"
+        ],
+        [
+            "svědek",
+            "der Zeuge"
+        ],
+        [
+            "nedávno",
+            "vor kurzem"
+        ],
+        [
+            "adoptovat",
+            "adoptieren"
+        ],
+        [
+            "vzdát, vzdávat (se)",
+            "aufgeben"
+        ],
+        [
+            "potkat, potkávat někoho",
+            "begegnen jemandem"
+        ],
+        [
+            "detektiv",
+            "der Detektiv"
+        ],
+        [
+            "angažovat se",
+            "sich engagieren"
+        ],
+        [
+            "vzpomenout si, pamatovat se na někoho/něco",
+            "sich erinnern an jemanden/etwas"
+        ],
+        [
+            "investovat do někoho/něčeho",
+            "investieren in jemanden/etwas"
+        ],
+        [
+            "stopa",
+            "die Spur"
+        ],
+        [
+            "hledání, pátrání",
+            "die Suche"
+        ],
+        [
+            "pravda",
+            "die Wahrheit"
+        ],
+        [
+            "dvojče",
+            "der Zwilling"
+        ],
+        [
+            "Přišli o žiot při autonehodě.",
+            "Sie sind bei einem Autounfall ums Lebe gekommen."
+        ],
+        [
+            "Nepamatuju se na to.",
+            "Ich erinnere mich nicht daran."
+        ],
+        [
+            "městská správa",
+            "die Stadtverwaltung"
+        ],
+        [
+            "oslovit, oslovovat",
+            "ansprechen"
+        ],
+        [
+            "pozornost",
+            "die Aufmerksamkeit"
+        ],
+        [
+            "zotavení, odpočinek",
+            "die Erholung"
+        ],
+        [
+            "podobat se",
+            "sich gleichen"
+        ],
+        [
+            "současně",
+            "gleichzeitig"
+        ],
+        [
+            "nesmělý, ostýchavý",
+            "schüchtern"
+        ],
+        [
+            "sebevědomý",
+            "selbstbewusst"
+        ],
+        [
+            "spolehnout se, spoléhat se na někoho/něco",
+            "sich verlassen auf jemanden/etwas"
+        ],
+        [
+            "urážka",
+            "die Beleidigung"
+        ],
+        [
+            "skromný",
+            "bescheiden"
+        ],
+        [
+            "vlastnost",
+            "die Eigenschaft"
+        ],
+        [
+            "ješitný",
+            "eitel"
+        ],
+        [
+            "citlivý, vnímavý",
+            "empfindlich"
+        ],
+        [
+            "svoboda",
+            "die Freiheit"
+        ],
+        [
+            "společenský",
+            "gesellig"
+        ],
+        [
+            "vášnivý/vášnivě",
+            "leidenschaftlich"
+        ],
+        [
+            "lež",
+            "die Lüge"
+        ],
+        [
+            "otevřený, upřímný",
+            "offen"
+        ],
+        [
+            "pomstychtivý",
+            "rachsüchtig"
+        ],
+        [
+            "vznětlivý, popudivý",
+            "reizbar"
+        ],
+        [
+            "sebejistý",
+            "selbstsicher"
+        ],
+        [
+            "citlivý",
+            "sensibel"
+        ],
+        [
+            "bezstarostný",
+            "sorgenlos"
+        ],
+        [
+            "tvrdohlavý",
+            "stur"
+        ],
+        [
+            "schopný",
+            "tüchtig"
+        ],
+        [
+            "spolehlivý",
+            "verlässlich"
+        ],
+        [
+            "zranitelný",
+            "verletzlich"
+        ],
+        [
+            "zdrženlivý, rezervovat",
+            "zurückhaltend"
+        ],
+        [
+            "advokát",
+            "der Anwalt"
+        ],
+        [
+            "urazit, urážet",
+            "beleidigen"
+        ],
+        [
+            "zbabělý",
+            "feige"
+        ],
+        [
+            "šikanovat",
+            "mobben"
+        ],
+        [
+            "oběť",
+            "das Opfer"
+        ],
+        [
+            "starost",
+            "die Sorge"
+        ],
+        [
+            "Je psychicky úplně na dně.",
+            "Er ist psychisch fix und fertig."
+        ]
+    ]
+}

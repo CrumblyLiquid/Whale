@@ -1,0 +1,385 @@
+{
+    "name": "Sprechen Sie Deutsch - Lekce 4.",
+    "summary": "Slovíčka z 4. lekce učebnice Sprechen Sie Deutsch",
+    "author": "CrumblyLiquid",
+    "native": "Čeština",
+    "foreign": "Němčina",
+    "inputs": [
+        {
+            "name": "Čeština"
+        },
+        {
+            "name": "Němčina"
+        }
+    ],
+    "words": [
+        [
+            "diskuse",
+            "die Diskussion"
+        ],
+        [
+            "exportovat, vyvážet",
+            "exportieren"
+        ],
+        [
+            "strojírenství",
+            "der Maschinenbau"
+        ],
+        [
+            "odpad",
+            "der Müll"
+        ],
+        [
+            "třídení odpadu",
+            "die Mülltrennung"
+        ],
+        [
+            "cenit si, vážit si někoho/něčeho",
+            "schätzen jemanden/etwas"
+        ],
+        [
+            "horčice",
+            "der Senf"
+        ],
+        [
+            "mít dobrou pověst",
+            "einen guten Ruf haben"
+        ],
+        [
+            "vyvážet ojetá auta",
+            "Gebrauchtwagen exportieren"
+        ],
+        [
+            "třídit odpad",
+            "den Müll trennen"
+        ],
+        [
+            "zhubnout, odebrat",
+            "abnehmen"
+        ],
+        [
+            "pospíšit si, pospíchat",
+            "sich beeilen"
+        ],
+        [
+            "miliardář",
+            "der Milliardär"
+        ],
+        [
+            "sám",
+            "selber"
+        ],
+        [
+            "(z)vítězit, vyhrát",
+            "siegen"
+        ],
+        [
+            "vydání, výtisk",
+            "die Ausgabe"
+        ],
+        [
+            "(z)dědit",
+            "erben"
+        ],
+        [
+            "protřídní, vybraný",
+            "exquisit"
+        ],
+        [
+            "oblast",
+            "das Gebiet"
+        ],
+        [
+            "krajina, oblast",
+            "die Gegend"
+        ],
+        [
+            "častý, často",
+            "häufig"
+        ],
+        [
+            "pokaždé",
+            "jedesmal"
+        ],
+        [
+            "kompletní, úplný, úplně, zcela",
+            "komplett"
+        ],
+        [
+            "osobní, osobně",
+            "persönlich"
+        ],
+        [
+            "výroba",
+            "die Produktion"
+        ],
+        [
+            "věnovat se",
+            "sich widmen"
+        ],
+        [
+            "okouzlující, nádherný",
+            "zauberhaft"
+        ],
+        [
+            "představovat, ztvárnit",
+            "darstellen"
+        ],
+        [
+            "dekorace, výzdoba",
+            "die Dekoration"
+        ],
+        [
+            "rozhodnout se, odhodlat se",
+            "sich entschließen"
+        ],
+        [
+            "jemný, jemně",
+            "fein"
+        ],
+        [
+            "pevnina",
+            "das Festland"
+        ],
+        [
+            "vrtulník",
+            "der Hubschrauber"
+        ],
+        [
+            "bohatý, hojný, bohatě",
+            "reichlich"
+        ],
+        [
+            "syrový",
+            "roh"
+        ],
+        [
+            "socha",
+            "die Statue"
+        ],
+        [
+            "suchý",
+            "trocken"
+        ],
+        [
+            "přehnat, přehánět",
+            "übertreiben"
+        ],
+        [
+            "zástupce",
+            "der Vertreter"
+        ],
+        [
+            "pivovar",
+            "die Brauerei"
+        ],
+        [
+            "sud",
+            "das Fass"
+        ],
+        [
+            "džbán",
+            "der Krug"
+        ],
+        [
+            "oficiální, oficiálně",
+            "offiziell"
+        ],
+        [
+            "dostihy",
+            "das Pferderennen"
+        ],
+        [
+            "princ",
+            "der Prinz"
+        ],
+        [
+            "takzvaný",
+            "so genannt"
+        ],
+        [
+            "sníst",
+            "verspeisen"
+        ],
+        [
+            "hostinský",
+            "der Wirt"
+        ],
+        [
+            "pracovitý",
+            "arbeitsam"
+        ],
+        [
+            "arogantní, arogantně",
+            "arrogant"
+        ],
+        [
+            "disciplinovaný, disciplinovaně",
+            "diszipliniert"
+        ],
+        [
+            "uvolněný, uvolněně",
+            "entspannt"
+        ],
+        [
+            "flexibilita",
+            "die Flexibilität"
+        ],
+        [
+            "zdvořilý, zdvořile",
+            "höflich"
+        ],
+        [
+            "improvizovat",
+            "improvisieren"
+        ],
+        [
+            "nedbalý, nepořádný",
+            "nachlässig"
+        ],
+        [
+            "precizní, precizně",
+            "präzise"
+        ],
+        [
+            "včasný, včas",
+            "rechtzeitig"
+        ],
+        [
+            "obtíž, nesnáz",
+            "die Schwierigkeit"
+        ],
+        [
+            "zacházení",
+            "der Umgang"
+        ],
+        [
+            "zodpovědnost",
+            "das Verantwortungsbewusstsein"
+        ],
+        [
+            "působit",
+            "wirken"
+        ],
+        [
+            "spolehlivost",
+            "die Zuverlässigkeit"
+        ],
+        [
+            "přizpůsobit se někomu/něčemu",
+            "sich anpassen an jemanden/etwas"
+        ],
+        [
+            "přijmout, přijímat",
+            "empfangen"
+        ],
+        [
+            "konečný, definitivní, definitivně",
+            "endgültig"
+        ],
+        [
+            "vynalézt, objevit",
+            "erfinden"
+        ],
+        [
+            "povolení",
+            "die Erlaubnis"
+        ],
+        [
+            "vlajka",
+            "die Flagge"
+        ],
+        [
+            "mír",
+            "der Frieden"
+        ],
+        [
+            "vzájemný, vzájemně",
+            "gegenseitig"
+        ],
+        [
+            "hranice",
+            "die Grenze"
+        ],
+        [
+            "jásot",
+            "der Jubel"
+        ],
+        [
+            "sdělit",
+            "mit/teilen"
+        ],
+        [
+            "(vz)bouřit se",
+            "rebellieren"
+        ],
+        [
+            "vláda",
+            "die Regierung"
+        ],
+        [
+            "ostrý, ostře",
+            "scharf"
+        ],
+        [
+            "dělit, rozdělit na něco",
+            "teilen in etw."
+        ],
+        [
+            "poměr, vztah",
+            "das Verhältnis"
+        ],
+        [
+            "příbuzný",
+            "der Verwandte"
+        ],
+        [
+            "vízum",
+            "das Visum"
+        ],
+        [
+            "zbraň",
+            "die Waffe"
+        ],
+        [
+            "hospodářství",
+            "die Wirtschaft"
+        ],
+        [
+            "zničit",
+            "zerstören"
+        ],
+        [
+            "zničení, zkáza",
+            "die Zerstörung"
+        ],
+        [
+            "kousnout, (po)kousat",
+            "beißen"
+        ],
+        [
+            "vděčný",
+            "dankbar"
+        ],
+        [
+            "krmivo",
+            "das Futter"
+        ],
+        [
+            "kohout",
+            "der Hahn"
+        ],
+        [
+            "myš",
+            "die Maus"
+        ],
+        [
+            "muzikant",
+            "der Musikant"
+        ],
+        [
+            "loupežník",
+            "der Räuber"
+        ]
+    ]
+}

@@ -1,0 +1,389 @@
+{
+    "name": "Sprechen Sie Deutsch - Lekce 2.",
+    "summary": "Slovíčka z 2. lekce učebnice Sprechen Sie Deutsch",
+    "author": "CrumblyLiquid",
+    "native": "Čeština",
+    "foreign": "Němčina",
+    "inputs": [
+        {
+            "name": "Čeština"
+        },
+        {
+            "name": "Němčina"
+        }
+    ],
+    "words": [
+        [
+            "být nápadný",
+            "auffallen"
+        ],
+        [
+            "vlastnit",
+            "besitzen"
+        ],
+        [
+            "spolek, svaz",
+            "der Bund"
+        ],
+        [
+            "demonstrovat",
+            "demonstrieren"
+        ],
+        [
+            "odpovídat",
+            "entsprechen"
+        ],
+        [
+            "obdržet, dostat",
+            "erhalten"
+        ],
+        [
+            "výchova",
+            "die Erziehung"
+        ],
+        [
+            "zatknout",
+            "festnehmen"
+        ],
+        [
+            "společnost",
+            "die Gesellschaft"
+        ],
+        [
+            "zkontrolovat",
+            "kontrollieren"
+        ],
+        [
+            "světlo",
+            "das Licht"
+        ],
+        [
+            "právo",
+            "das Recht"
+        ],
+        [
+            "škoda",
+            "der Schaden"
+        ],
+        [
+            "skončit, zavřít, zamknout",
+            "schließen"
+        ],
+        [
+            "ochrana",
+            "der Schutz"
+        ],
+        [
+            "starat se o někoho/něco",
+            "sorgen für jemanden/etwas"
+        ],
+        [
+            "proudit",
+            "strömen"
+        ],
+        [
+            "shromáždění",
+            "die Versammlung"
+        ],
+        [
+            "velvyslanectví",
+            "die Botschaft"
+        ],
+        [
+            "parta",
+            "die Clique"
+        ],
+        [
+            "hlavní město",
+            "die Hauptstadt"
+        ],
+        [
+            "mládí, mládež",
+            "die Jugend"
+        ],
+        [
+            "dětství",
+            "die Kindheit"
+        ],
+        [
+            "od té doby",
+            "seitdem"
+        ],
+        [
+            "postrádat",
+            "vermissen"
+        ],
+        [
+            "zmizet",
+            "verschwinden"
+        ],
+        [
+            "Běžel jsem po schodech dolů.",
+            "Ich lief die Treppe hinunter."
+        ],
+        [
+            "stavba",
+            "der Bau"
+        ],
+        [
+            "památní, pomník",
+            "das Denkmal"
+        ],
+        [
+            "dědictví",
+            "das Erbe"
+        ],
+        [
+            "kancléř",
+            "das Kanzler"
+        ],
+        [
+            "člen (organizace)",
+            "das Mitglied"
+        ],
+        [
+            "vyrobit, vyrábět",
+            "produzieren"
+        ],
+        [
+            "bohatý, bohatě",
+            "reich"
+        ],
+        [
+            "sídlo",
+            "der Sitz"
+        ],
+        [
+            "stát",
+            "der Staat"
+        ],
+        [
+            "odmítnout, odmítat",
+            "ablehnen"
+        ],
+        [
+            "snažit se o něco",
+            "sich bemühen um etwas"
+        ],
+        [
+            "obyvatel",
+            "der Einwohner"
+        ],
+        [
+            "železnice",
+            "die Eisenbahn"
+        ],
+        [
+            "schopný",
+            "fähig"
+        ],
+        [
+            "pokrok",
+            "der Fortschritt"
+        ],
+        [
+            "podařit se",
+            "gelingen"
+        ],
+        [
+            "konstruktér",
+            "der Konstrukteur"
+        ],
+        [
+            "vyplatit se",
+            "sich lohnen"
+        ],
+        [
+            "zdát se",
+            "scheinen"
+        ],
+        [
+            "technickým, technicky",
+            "technisch"
+        ],
+        [
+            "převzít, přebrat",
+            "übernehmen"
+        ],
+        [
+            "opustit",
+            "verlassen"
+        ],
+        [
+            "vzdát se, zříct se něčeho",
+            "verzichten auf etwas"
+        ],
+        [
+            "divit se někomu/něčemu",
+            "sich wundern über jemanden/etwas"
+        ],
+        [
+            "obsloužit, obsluhovat",
+            "bedienen"
+        ],
+        [
+            "skládat se z něčeho",
+            "bestehen aus etwas"
+        ],
+        [
+            "obrazovka",
+            "der Bildschirm"
+        ],
+        [
+            "plocha",
+            "die Fläche"
+        ],
+        [
+            "topení",
+            "die Heizung"
+        ],
+        [
+            "avšak, však",
+            "jedoch"
+        ],
+        [
+            "mikrovlnná trouba",
+            "die Mikrowelle"
+        ],
+        [
+            "notebook",
+            "das Notebook"
+        ],
+        [
+            "počítat",
+            "rechnen"
+        ],
+        [
+            "chytrý, mazaný, chytře",
+            "schlau"
+        ],
+        [
+            "strčit, zasunout",
+            "stecken"
+        ],
+        [
+            "kapsa",
+            "die Tasche"
+        ],
+        [
+            "klávesnice",
+            "die Tastatur"
+        ],
+        [
+            "dotykový dipslej",
+            "der Touchscreen"
+        ],
+        [
+            "spotřebovat",
+            "verbrauchen"
+        ],
+        [
+            "srovnávat, porovnávat",
+            "vergleichen"
+        ],
+        [
+            "sušička prádla",
+            "der Wäschetrockner"
+        ],
+        [
+            "zvážit",
+            "wiegen"
+        ],
+        [
+            "litovat",
+            "bedauern"
+        ],
+        [
+            "podvést, podvádět",
+            "betrügen"
+        ],
+        [
+            "aby",
+            "damit"
+        ],
+        [
+            "napadnout, napadat někoho",
+            "einfallen jemandem"
+        ],
+        [
+            "osel",
+            "der Esel"
+        ],
+        [
+            "bajka",
+            "die Fabel"
+        ],
+        [
+            "žrát",
+            "fressen"
+        ],
+        [
+            "liška",
+            "der Fuchs"
+        ],
+        [
+            "zavazadlo",
+            "das Gepäck"
+        ],
+        [
+            "síla",
+            "die Kraft"
+        ],
+        [
+            "lidský, lidsky",
+            "menschlich"
+        ],
+        [
+            "politický, politicky",
+            "politisch"
+        ],
+        [
+            "ovce",
+            "das Schaf"
+        ],
+        [
+            "špinavý",
+            "schmutzig"
+        ],
+        [
+            "zobák",
+            "der Schnabel"
+        ],
+        [
+            "čáp",
+            "der Storch"
+        ],
+        [
+            "věrný, věrně",
+            "treu"
+        ],
+        [
+            "vlk",
+            "der Wolf"
+        ],
+        [
+            "koza",
+            "die Zeige"
+        ],
+        [
+            "chudý, chudě",
+            "arm"
+        ],
+        [
+            "občan",
+            "der Bürger"
+        ],
+        [
+            "císař",
+            "der Kaiser"
+        ],
+        [
+            "válka",
+            "das Krieg"
+        ],
+        [
+            "říše",
+            "das Reich"
+        ]
+    ]
+}

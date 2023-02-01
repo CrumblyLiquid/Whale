@@ -1,0 +1,373 @@
+{
+    "name": "Sprechen Sie Deutsch - Lekce 3.",
+    "summary": "Slovíčka z 3. lekce učebnice Sprechen Sie Deutsch",
+    "author": "CrumblyLiquid",
+    "native": "Čeština",
+    "foreign": "Němčina",
+    "inputs": [
+        {
+            "name": "Čeština"
+        },
+        {
+            "name": "Němčina"
+        }
+    ],
+    "words": [
+        [
+            "podobný, podobně",
+            "ähnlich"
+        ],
+        [
+            "druh, způsob",
+            "die Art"
+        ],
+        [
+            "výjimka",
+            "die Ausnahme"
+        ],
+        [
+            "průvodce",
+            "der Begleiter"
+        ],
+        [
+            "obstarat",
+            "besorgen"
+        ],
+        [
+            "zlý, zlobivý, zle",
+            "böse"
+        ],
+        [
+            "zvyk",
+            "der Brauch"
+        ],
+        [
+            "chytit, chytat",
+            "fangen"
+        ],
+        [
+            "ohňostroj",
+            "das Feuerwerk"
+        ],
+        [
+            "kruh",
+            "der Kreis"
+        ],
+        [
+            "polibek",
+            "der Kuss"
+        ],
+        [
+            "čtenář",
+            "der Leser"
+        ],
+        [
+            "Mikuláš",
+            "der Nikolaus"
+        ],
+        [
+            "závod, běh",
+            "das Rennen"
+        ],
+        [
+            "speciální, speciálně",
+            "speziell"
+        ],
+        [
+            "varování",
+            "die Warnung"
+        ],
+        [
+            "hořký, hořce",
+            "bitter"
+        ],
+        [
+            "bonbón",
+            "der Bonbon"
+        ],
+        [
+            "dojem",
+            "der Eindruck"
+        ],
+        [
+            "plnit, naplnit",
+            "füllen"
+        ],
+        [
+            "lhát",
+            "lügen"
+        ],
+        [
+            "pralinka",
+            "die Praline"
+        ],
+        [
+            "pytel",
+            "der Sack"
+        ],
+        [
+            "místo",
+            "statt"
+        ],
+        [
+            "tichý, tiše",
+            "still"
+        ],
+        [
+            "vůbec",
+            "überhaupt"
+        ],
+        [
+            "zastavit se u někoho",
+            "vorbeikommen bei jemandem"
+        ],
+        [
+            "odměnit",
+            "belohnen"
+        ],
+        [
+            "anděl",
+            "der Engel"
+        ],
+        [
+            "polekat, vyděsti někoho",
+            "erschrecken jemanden"
+        ],
+        [
+            "leknout se",
+            "erschrecken"
+        ],
+        [
+            "dřevo",
+            "das Holz"
+        ],
+        [
+            "koš",
+            "der Korb"
+        ],
+        [
+            "pochválit, chválit",
+            "loben"
+        ],
+        [
+            "maska",
+            "die Maske"
+        ],
+        [
+            "chodec",
+            "der Passant"
+        ],
+        [
+            "sbírat, vybírat",
+            "sammeln"
+        ],
+        [
+            "čert",
+            "der Teufel"
+        ],
+        [
+            "rozdat, rozdávat",
+            "verteilen"
+        ],
+        [
+            "divoký, divoce",
+            "wild"
+        ],
+        [
+            "významný, významně",
+            "bedeutend"
+        ],
+        [
+            "označení",
+            "die Bezeichnung"
+        ],
+        [
+            "prosadit se",
+            "sich durchsetzen"
+        ],
+        [
+            "pečivo",
+            "das Gebäck"
+        ],
+        [
+            "celkem",
+            "insgesamt"
+        ],
+        [
+            "měřit",
+            "messen"
+        ],
+        [
+            "perník",
+            "der Pfefferkuchen"
+        ],
+        [
+            "princezna",
+            "die Prinzessin"
+        ],
+        [
+            "kulatý, kolem",
+            "rund"
+        ],
+        [
+            "krájet, řezat, stříhat",
+            "schneiden"
+        ],
+        [
+            "talíř",
+            "der Teller"
+        ],
+        [
+            "titul",
+            "der Titel"
+        ],
+        [
+            "předtím",
+            "vorher"
+        ],
+        [
+            "uvnitř",
+            "drinnen"
+        ],
+        [
+            "naproti, na druhé straně",
+            "drüben"
+        ],
+        [
+            "jesle, jesličky",
+            "die Krippe"
+        ],
+        [
+            "posunout, posunovat",
+            "schieben"
+        ],
+        [
+            "domluvit se",
+            "sich verabreden"
+        ],
+        [
+            "vynořit se",
+            "auftauchen"
+        ],
+        [
+            "nadílka",
+            "die Bescherung"
+        ],
+        [
+            "smažit, péct",
+            "braten"
+        ],
+        [
+            "(vy)zdobit",
+            "dekorieren"
+        ],
+        [
+            "nutný, nutně",
+            "dringend"
+        ],
+        [
+            "husa",
+            "die Gans"
+        ],
+        [
+            "někdě",
+            "irgendwo"
+        ],
+        [
+            "kapr",
+            "der Karpfen"
+        ],
+        [
+            "koule",
+            "die Kugel"
+        ],
+        [
+            "pohádka",
+            "das Märchen"
+        ],
+        [
+            "mše",
+            "die Messe"
+        ],
+        [
+            "nikde",
+            "nirgendwo"
+        ],
+        [
+            "vůl",
+            "der Ochse"
+        ],
+        [
+            "obrovský, obrovsky",
+            "riesig"
+        ],
+        [
+            "(o)zdobit",
+            "schmücken"
+        ],
+        [
+            "vinný, vinen",
+            "schuldig"
+        ],
+        [
+            "šupina",
+            "die Schnuppe"
+        ],
+        [
+            "houskový knedlík",
+            "der Semmelknödel"
+        ],
+        [
+            "přežít",
+            "überleben"
+        ],
+        [
+            "přečíst, předčítat",
+            "vorlesen"
+        ],
+        [
+            "(vz)budit",
+            "wecken"
+        ],
+        [
+            "(vy)táhnout",
+            "ziehen"
+        ],
+        [
+            "obsadit",
+            "besetzen"
+        ],
+        [
+            "otevřít, otevírat",
+            "eröffnen"
+        ],
+        [
+            "veselý, vesele",
+            "fröhlich"
+        ],
+        [
+            "karneval",
+            "der Karneval"
+        ],
+        [
+            "blázen",
+            "der Narr"
+        ],
+        [
+            "sál",
+            "der Saal"
+        ],
+        [
+            "pořádat, organizovat",
+            "veranstalten"
+        ],
+        [
+            "převléknout se, převlékat se,",
+            "sich verkleiden"
+        ],
+        [
+            "průvod",
+            "der Zug"
+        ]
+    ]
+}
