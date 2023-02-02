@@ -9,7 +9,7 @@ edition = "2021"
 whale = { path = "../whale"}
 axum = "0.6.1"
 axum-extra = { version = "0.4", features = ["spa"] }
-tower-http = { version = "0.3", features = ["cors"] }
+tower-http = "0.3"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 tokio = { version = "1.0", features = ["full"] }

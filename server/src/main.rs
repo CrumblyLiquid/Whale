@@ -1,17 +1,21 @@
 use axum::{
-    routing::get,
-    http::{StatusCode, Method},
+    routing::{get, get_service},
+    http::StatusCode,
     response::{IntoResponse, Response},
     Json, Router,
     Extension,
 };
-use axum_extra::routing::SpaRouter;
-use tower_http::cors::{CorsLayer, Any};
+use tower_http::services::{ServeDir, ServeFile};
 use whale::{Package, Index};
 use tokio::{fs::File, io::AsyncReadExt};
 use std::{net::SocketAddr, path::Path};
+use std::io;
 
 const CONTENT_FOLDER: &str = "./content";
+
+async fn handle_error(_err: io::Error) -> impl IntoResponse {
+    (StatusCode::NOT_FOUND, "Invalid route")
+}
 
 #[tokio::main]
 async fn main() {
@@ -20,9 +24,9 @@ async fn main() {
     let index_file = get_index().await.expect("Failed to load index");
 
     let app = Router::new()
-        .merge(SpaRouter::new("/", "../app/dist").index_file("index.html"))
         .route("/api/packages", get(index))
         .route("/api/package/:id", get(package))
+        .fallback_service(get_service(ServeDir::new("../app/dist").not_found_service(ServeFile::new("../app/dist/index.html"))).handle_error(handle_error))
         .layer(Extension(index_file));
 
     let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
