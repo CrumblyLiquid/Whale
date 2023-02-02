@@ -5,6 +5,7 @@ use axum::{
     Json, Router,
     Extension,
 };
+use axum_extra::routing::SpaRouter;
 use tower_http::cors::{CorsLayer, Any};
 use whale::{Package, Index};
 use tokio::{fs::File, io::AsyncReadExt};
@@ -18,17 +19,11 @@ async fn main() {
 
     let index_file = get_index().await.expect("Failed to load index");
 
-    let cors = CorsLayer::new()
-        // allow `GET` and `POST` when accessing the resource
-        .allow_methods(Method::GET)
-        // allow requests from any origin
-        .allow_origin(Any);
-
     let app = Router::new()
+        .merge(SpaRouter::new("/", "../app/dist").index_file("index.html"))
         .route("/api/packages", get(index))
         .route("/api/package/:id", get(package))
-        .layer(Extension(index_file))
-        .layer(cors);
+        .layer(Extension(index_file));
 
     let addr = SocketAddr::from(([127, 0, 0, 1], 3000));
     tracing::debug!("listening on {}", addr);
