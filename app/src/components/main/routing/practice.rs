@@ -20,26 +20,35 @@ pub fn practice(params: &PracticeParams) -> Html {
 
     wasm_bindgen_futures::spawn_local({
         let package = package.clone();
+        let mut url = String::from("http://127.0.0.1");
+
+        if let Some(window) = web_sys::window() {
+            if let Ok(origin) = window.location().origin() {
+                url = origin;
+            }
+        }
 
         async move {
             let package = package.clone();
-            match Request::get(&("http://127.0.0.1:3000/api/package/".to_owned() + &id))
-            .send()
-            .await {
-                Ok(result) => {
-                    match result
-                    .json::<Package>()
-                    .await {
-                        Ok(pac) => {
-                            package.set(Some(pac));
-                        },
-                        Err(e) => {
-                            gloo_console::log!(format!("An error occured while parsing /api/package/{} response to JSON ({:#?})", id, e));
-                        }
-                    };
-                },
-                Err(e) => {
-                    gloo_console::log!(format!("Failed to fetch /api/package/{} ({:#?})", id, e));
+            if package.is_none() {
+                match Request::get(&format!("{0}/api/package/{1}", url, id))
+                .send()
+                .await {
+                    Ok(result) => {
+                        match result
+                        .json::<Package>()
+                        .await {
+                            Ok(pac) => {
+                                package.set(Some(pac));
+                            },
+                            Err(e) => {
+                                gloo_console::log!(format!("An error occured while parsing /api/package/{} response to JSON ({:#?})", id, e));
+                            }
+                        };
+                    },
+                    Err(e) => {
+                        gloo_console::log!(format!("Failed to fetch /api/package/{} ({:#?})", id, e));
+                    }
                 }
             }
         }
