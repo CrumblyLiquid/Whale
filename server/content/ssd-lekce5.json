@@ -1,0 +1,373 @@
+{
+    "name": "Sprechen Sie Deutsch - Lekce 5.",
+    "summary": "Slovíčka z 5. lekce učebnice Sprechen Sie Deutsch",
+    "author": "CrumblyLiquid",
+    "native": "Čeština",
+    "foreign": "Němčina",
+    "inputs": [
+        {
+            "name": "Čeština"
+        },
+        {
+            "name": "Němčina"
+        }
+    ],
+    "words": [
+        [
+            "absolvent",
+            "der Absolvent"
+        ],
+        [
+            "měnit se",
+            "sich ändern"
+        ],
+        [
+            "trh práce",
+            "der Arbeitsmarkt"
+        ],
+        [
+            "vykonávat",
+            "ausüben"
+        ],
+        [
+            "obor",
+            "der Bereich"
+        ],
+        [
+            "týkat se",
+            "betreffen"
+        ],
+        [
+            "obor",
+            "die Branche"
+        ],
+        [
+            "propustit",
+            "entlassen"
+        ],
+        [
+            "vývoj",
+            "die Entwicklung"
+        ],
+        [
+            "nahradit",
+            "ersetzen"
+        ],
+        [
+            "pokračovat v něčem",
+            "fort/setzen etwas"
+        ],
+        [
+            "platit",
+            "gelten"
+        ],
+        [
+            "zvyknout si, zvykat si na někoho/něco",
+            "sich gewöhnen an jemanden/etwas"
+        ],
+        [
+            "průmysl",
+            "die Industrie"
+        ],
+        [
+            "investice",
+            "die Investition"
+        ],
+        [
+            "dát výpověď",
+            "kündigen"
+        ],
+        [
+            "nedostatek něčeho",
+            "der Mangel an etwas"
+        ],
+        [
+            "ošetřovatel",
+            "der Pfleger"
+        ],
+        [
+            "robot",
+            "der Roboter"
+        ],
+        [
+            "činnost",
+            "die Tätigkeit"
+        ],
+        [
+            "slíbit, slibovat",
+            "versprechen"
+        ],
+        [
+            "změna, obrat",
+            "der Wandel"
+        ],
+        [
+            "budoucí",
+            "zukünftig"
+        ],
+        [
+            "věk, stáří",
+            "das Alter"
+        ],
+        [
+            "zaměstnavatel",
+            "der Arbeitgeber"
+        ],
+        [
+            "potřeba",
+            "das Bedürfnis"
+        ],
+        [
+            "připravený",
+            "bereit"
+        ],
+        [
+            "ošetřování, opatrování",
+            "die Betreuung"
+        ],
+        [
+            "obyvatel",
+            "der Bewohner"
+        ],
+        [
+            "zařízení",
+            "die Einrichtung"
+        ],
+        [
+            "nasazení, angažmá",
+            "das Engagement"
+        ],
+        [
+            "schopnost",
+            "die Fähigkeit"
+        ],
+        [
+            "další vzdělávání",
+            "die Fortbildung"
+        ],
+        [
+            "domov",
+            "das Heim"
+        ],
+        [
+            "znalost",
+            "die Kenntnis"
+        ],
+        [
+            "komunikativní",
+            "kommunikativ"
+        ],
+        [
+            "vést",
+            "leiten"
+        ],
+        [
+            "respektovat",
+            "respektieren"
+        ],
+        [
+            "řídit se",
+            "sich richten"
+        ],
+        [
+            "směna",
+            "die Schicht"
+        ],
+        [
+            "obvyklý; obvykle",
+            "üblich"
+        ],
+        [
+            "smlouva",
+            "der Vertrag"
+        ],
+        [
+            "spolupráce",
+            "die Zusammenarbeit"
+        ],
+        [
+            "(z)odpovědný za něco",
+            "zuständig für etwas"
+        ],
+        [
+            "ukončení, konec",
+            "der Abschluss"
+        ],
+        [
+            "příloha (e-mailu)",
+            "die Anlage"
+        ],
+        [
+            "úřad",
+            "die Behörde"
+        ],
+        [
+            "(po)rada",
+            "die Beratung"
+        ],
+        [
+            "vhodný",
+            "geeignet"
+        ],
+        [
+            "včerejší",
+            "gestrig"
+        ],
+        [
+            "informativní",
+            "informativ"
+        ],
+        [
+            "integrace",
+            "die Integration"
+        ],
+        [
+            "hrát kuželky",
+            "kegeln"
+        ],
+        [
+            "životopis",
+            "der Lebenslauf"
+        ],
+        [
+            "motivovat",
+            "motivieren"
+        ],
+        [
+            "optimismus",
+            "der Optimismus"
+        ],
+        [
+            "odpovědnost",
+            "die Verantwortung"
+        ],
+        [
+            "spolehlivý",
+            "zuverlässig"
+        ],
+        [
+            "zaměstnance",
+            "der Arbeitnehmer"
+        ],
+        [
+            "zakázka, objednávka",
+            "der Auftrag"
+        ],
+        [
+            "výměna",
+            "der Austausch"
+        ],
+        [
+            "obávat se",
+            "befürchten"
+        ],
+        [
+            "znýmý",
+            "der Bekannte"
+        ],
+        [
+            "rozdělit",
+            "einteilen"
+        ],
+        [
+            "mateřská dovolená",
+            "der Elternurlaub"
+        ],
+        [
+            "objevit se",
+            "erscheinen"
+        ],
+        [
+            "částečně",
+            "teilweise"
+        ],
+        [
+            "zbytečný; zbytečně",
+            "überflüssig"
+        ],
+        [
+            "měnit, změnit",
+            "wechseln"
+        ],
+        [
+            "hořet, pálit",
+            "brennen"
+        ],
+        [
+            "usnout",
+            "einschlafen"
+        ],
+        [
+            "evakuace",
+            "die Evakuieren"
+        ],
+        [
+            "nebe",
+            "der Himmel"
+        ],
+        [
+            "přistání",
+            "die Landung"
+        ],
+        [
+            "ušlechtilý, noblesní",
+            "nobel"
+        ],
+        [
+            "nouze",
+            "die Not"
+        ],
+        [
+            "panika",
+            "die Panik"
+        ],
+        [
+            "cestující",
+            "der Passagier"
+        ],
+        [
+            "křičet",
+            "schreien"
+        ],
+        [
+            "startovat",
+            "starten"
+        ],
+        [
+            "cvičení",
+            "die Übung"
+        ],
+        [
+            "pradědeček",
+            "der Urgroßvater"
+        ],
+        [
+            "pravdivý, skutečný",
+            "wahr"
+        ],
+        [
+            "zdaleka",
+            "weither"
+        ],
+        [
+            "nezaměstnaný",
+            "arbeitslos"
+        ],
+        [
+            "oboje",
+            "beides"
+        ],
+        [
+            "pevý; pevně",
+            "fest"
+        ],
+        [
+            "imigrant",
+            "der Immigrant"
+        ],
+        [
+            "rozdíl",
+            "der Unterschied"
+        ]
+    ]
+}

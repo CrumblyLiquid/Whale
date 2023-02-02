@@ -29,6 +29,12 @@
             "name": "Sprechen Sie Deutsch - Lekce 4.",
             "summary": "Slovíčka z 4. lekce učebnice Sprechen Sie Deutsch",
             "author": "CrumblyLiquid"
+        },
+        "ssd-lekce5": {
+            "filename": "ssd-lekce5",
+            "name": "Sprechen Sie Deutsch - Lekce 5.",
+            "summary": "Slovíčka z 5. lekce učebnice Sprechen Sie Deutsch",
+            "author": "CrumblyLiquid"
         }
     }
 }
