@@ -1,8 +1,8 @@
 use yew::prelude::*;
 use yew_router::prelude::*;
 
-mod home;
-use home::Home;
+mod info;
+use info::Info;
 mod index;
 use index::Index;
 mod practice;
@@ -11,11 +11,11 @@ mod error;
 use error::{NotFound};
 
 #[derive(Clone, Routable, PartialEq)]
-enum Route {
+pub enum Route {
     #[at("/")]
-    Home,
-    #[at("/list")]
     Index,
+    #[at("/info")]
+    Info,
     #[at("/practice/:id")]
     Practice { id: String },
     #[not_found]
@@ -25,7 +25,7 @@ enum Route {
 
 fn switch(routes: Route) -> Html {
     match routes {
-        Route::Home => html! { <Home /> },
+        Route::Info => html! { <Info /> },
         Route::Index => html! { <Index /> },
         Route::Practice { id } => html! { <Practice id={id} /> },
         Route::NotFound => html! { <NotFound /> },
