@@ -94,6 +94,14 @@ impl PracticeComponent {
         (rand * (size - 1) as f64) as usize
     }
 
+    fn check_input(&self, index: usize) -> bool {
+        self.selected[index] == self.input_values[index]
+    }
+
+    fn set_input(&mut self, index: usize, value: String) {
+        self.input_values[index] = value;
+    }
+
     fn next(&mut self, success: bool) {
         let unchecked_len = self.unchecked.len();
         let failed_len = self.failed.len();
@@ -135,7 +143,8 @@ impl PracticeComponent {
                     if let Some(document) = window.document() {
                         if let Some(element) = document.get_element_by_id(&input_index.to_string()) {
                             if let Ok(input) = element.dyn_into::<HtmlInputElement>() {
-                                input.set_value("");
+                                input.set_value(""); // Set the HTML Element
+                                self.set_input(input_index, String::new()); // Set the internal tracker
                                 // Focus first available input that is not a starting input
                                 if !focused && input_index != self.starting {
                                     if let Ok(_) = input.focus() {
@@ -157,7 +166,6 @@ impl PracticeComponent {
 
 pub enum Msg {
     Input(usize, String),
-    Check,
     GiveUp,
     Next,
 }
@@ -196,7 +204,7 @@ impl Component for PracticeComponent {
         match msg {
             Msg::Input(i, val) => {
                 // Update input value
-                self.input_values[i] = val;
+                self.set_input(i, val);
 
                 // if let Some(input) = self.input_refs[i].cast::<HtmlInputElement>() {
                 //     self.values[i] = input.value();
@@ -208,13 +216,13 @@ impl Component for PracticeComponent {
                 // }
 
                 // Check if the specific input is correct and if so, focus on the following one or move to a new word
-                if self.input_values[i] == self.selected[i] {
+                if self.check_input(i) {
                     let mut next_focus: Option<HtmlInputElement> = None;
 
                     for input_index in 0..self.inputs.len() {
                         // Check if input is not starting index (won't have value)
                         // and if the input holds the correct value
-                        if input_index != self.starting && self.input_values[input_index] != self.selected[input_index] {
+                        if input_index != self.starting && !self.check_input(input_index) {
                             if let Some(window) = web_sys::window() {
                                 if let Some(document) = window.document() {
                                     if let Some(element) = document.get_element_by_id(&input_index.to_string()) {
@@ -241,7 +249,6 @@ impl Component for PracticeComponent {
                     }
                 }
             },
-            Msg::Check => {},
             Msg::GiveUp => {},
             Msg::Next => self.next(true),
         };
@@ -252,7 +259,6 @@ impl Component for PracticeComponent {
     fn view(&self, ctx: &Context<Self>) -> Html {
         let package = &ctx.props().package;
 
-        let check = ctx.link().callback(|_| Msg::Check);
         let give_up = ctx.link().callback(|_| Msg::GiveUp);
         let next = ctx.link().callback(|_| Msg::Next);
 
@@ -277,7 +283,14 @@ impl Component for PracticeComponent {
                         .iter()
                         .enumerate()
                         .map( |(i, input)| {
-                            let val = if i == 0 { Some(self.selected[i].clone()) } else { None };
+                            let val = if i == self.starting { Some(self.selected[i].clone()) } else { None };
+
+                            // Give inputs different border based on their input
+                            let classes = if self.input_values[i] != "" {
+                                if self.check_input(i) { "border-2 border-green-500" } else { "border-2 border-red-500" }
+                            } else {
+                                "border border-gray-700"
+                            };
 
                             // Instead of using get_element_by_id I could use a list of NodeRefs
                             // bound to input_refs attribute
@@ -293,11 +306,11 @@ impl Component for PracticeComponent {
                                 <span>{ input.name.clone() }</span>
                                 <input
                                         // ref={ nref }
-                                        class="border border-gray-700"
+                                        class={ classes }
                                         id={ i.to_string() }
                                         type="text"
                                         placeholder={ input.example.clone() }
-                                        disabled={ i == 0 }
+                                        disabled={ i == self.starting }
                                         oninput={ ctx.link().callback( move |e: InputEvent| {
                                             let input: HtmlInputElement = e.target_unchecked_into();
                                             Msg::Input(i, input.value())
@@ -313,7 +326,6 @@ impl Component for PracticeComponent {
                 </div>
                 // Buttons lol
                 <div class="flex space-x-6 m-6">
-                    <button class="border border-gray-700 p-2 hover:bg-black hover:text-white transition-colors" onclick={check}>{"Zkontrolovat"}</button>
                     <button class="border border-gray-700 p-2 hover:bg-black hover:text-white transition-colors" onclick={give_up}>{"Prozradit"}</button>
                     <button class="border border-gray-700 p-2 hover:bg-black hover:text-white transition-colors" onclick={next}>{"Další"}</button>
                 </div>
