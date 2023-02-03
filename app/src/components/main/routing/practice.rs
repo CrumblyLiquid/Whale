@@ -84,6 +84,7 @@ pub struct PracticeComponent {
     // input_refs: Vec<NodeRef>,
     starting: usize, // Pre-filled input
 
+    given_up: bool,
     input_values: Vec<String>, // Values of our inputs (updated through callbacks)
 }
 
@@ -194,6 +195,7 @@ impl Component for PracticeComponent {
             completed: false,
             inputs: package.inputs.clone(),
             starting: 0, // TODO: Make starting input configurable
+            given_up: false,
             // Start with empty values so we don't get invalid index
             input_values: vec!["".to_string(); package.inputs.len()],
         }
@@ -249,7 +251,14 @@ impl Component for PracticeComponent {
                     }
                 }
             },
-            Msg::GiveUp => {},
+            Msg::GiveUp => {
+                if self.given_up {
+                    self.given_up = false;
+                    self.next(false);
+                } else {
+                    self.given_up = true;
+                }
+            },
             Msg::Next => self.next(true),
         };
 
@@ -283,7 +292,7 @@ impl Component for PracticeComponent {
                         .iter()
                         .enumerate()
                         .map( |(i, input)| {
-                            let val = if i == self.starting { Some(self.selected[i].clone()) } else { None };
+                            let val = if i == self.starting || self.given_up { Some(self.selected[i].clone()) } else { None };
 
                             // Give inputs different border based on their input
                             let classes = if self.input_values[i] != "" {
@@ -310,7 +319,7 @@ impl Component for PracticeComponent {
                                         id={ i.to_string() }
                                         type="text"
                                         placeholder={ input.example.clone() }
-                                        disabled={ i == self.starting }
+                                        disabled={ i == self.starting || self.given_up }
                                         oninput={ ctx.link().callback( move |e: InputEvent| {
                                             let input: HtmlInputElement = e.target_unchecked_into();
                                             Msg::Input(i, input.value())
