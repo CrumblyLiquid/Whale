@@ -344,8 +344,8 @@ impl Component for PracticeComponent {
                 }
                 </div>
                 // Buttons lol
-                <div class="flex justify-between m-6">
-                    <div class="flex space-x-6">
+                <div class="flex justify-between m-6 space-x-2">
+                    <div class="flex space-x-2 lg:space-x-2">
                         <button class="border border-gray-700 p-2 hover:bg-black hover:text-white transition-colors" onclick={give_up}>{"Prozradit"}</button>
                         <button class="border border-gray-700 p-2 hover:bg-black hover:text-white transition-colors" onclick={next}>{"Další"}</button>
                     </div>

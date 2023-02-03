@@ -6,7 +6,7 @@ use routing::Router;
 #[function_component(Main)]
 pub fn main() -> Html {
     html! {
-        <main class="p-7 min-h-full">
+        <main class="lg:p-7 min-h-full">
             <Router />
         </main>
     }
