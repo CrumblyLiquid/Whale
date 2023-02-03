@@ -1,6 +1,6 @@
 use yew::prelude::*;
 
-mod routing;
+pub mod routing;
 use routing::Router;
 
 #[function_component(Main)]

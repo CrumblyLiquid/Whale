@@ -1,6 +1,9 @@
 use gloo_console::log;
 use yew::prelude::*;
 
+use yew_router::prelude::*;
+use crate::components::main::routing::Route;
+
 use whale::{Package, Input};
 use gloo_net::http::Request;
 use web_sys:: HtmlInputElement;
@@ -259,7 +262,14 @@ impl Component for PracticeComponent {
                     self.given_up = true;
                 }
             },
-            Msg::Next => self.next(true),
+            Msg::Next => {
+                if self.given_up {
+                    self.given_up = false;
+                    self.next(false);
+                } else {
+                    self.next(true);
+                }
+            }
         };
 
         true // Whether to render the component after update
@@ -334,9 +344,16 @@ impl Component for PracticeComponent {
                 }
                 </div>
                 // Buttons lol
-                <div class="flex space-x-6 m-6">
-                    <button class="border border-gray-700 p-2 hover:bg-black hover:text-white transition-colors" onclick={give_up}>{"Prozradit"}</button>
-                    <button class="border border-gray-700 p-2 hover:bg-black hover:text-white transition-colors" onclick={next}>{"Další"}</button>
+                <div class="flex justify-between m-6">
+                    <div class="flex space-x-6">
+                        <button class="border border-gray-700 p-2 hover:bg-black hover:text-white transition-colors" onclick={give_up}>{"Prozradit"}</button>
+                        <button class="border border-gray-700 p-2 hover:bg-black hover:text-white transition-colors" onclick={next}>{"Další"}</button>
+                    </div>
+                    <div>
+                        <Link<Route> to={Route::Info}>
+                            <button class="border border-gray-700 p-2 hover:bg-black hover:text-white transition-colors">{"Nápověda"}</button>
+                        </Link<Route>>
+                    </div>
                 </div>
             </div>
         }
